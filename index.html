@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1 class="titulo-clase" > Pagina laboratorio 1 </h1>
+    <h3> Cursando : 4to año</h3>
+    <h3> Carrera : Ingeniería Civil Industrial </h3>
+    <h4> About me: </h4>
+    <p> My name is Omar Hernandez Mella, a 4th year student of Industrial Civil Engineering at the Universidad de los Andes. In the academic field,
+        I stand out for my grades in programming and mathematics courses, because in my school I developed a lot of analytical thinking. 
+        I excel in courses like calculus and edo. in addition to object-oriented programming courses. 
+        On a personal level, I stand out for my high level of leadership, being so I participated in scouting for 13 years and in most of the case participating as a guide of the communities and my main hobbies are doing sports 
+        activities such as going to the gym and playing soccer, I am also passionate about backpacking and I plan to do one towards the Torres del Paine this summer. 
+    </p>
+
+    <table class= "tabla-clase"> 
+    <tr>
+
+        <th>skill</th>
+        <th>level</th>
+    </tr>
+    <tr>
+        <td>Excel</td>
+        <td>Advance</td>
+    </tr>
+    <tr>
+        <td>Python</td>
+        <td>Advance</td>
+    </tr>
+    <tr>
+        <td>JavaScript</td>
+        <td>Basic</td>
+    </tr>
+    <tr>
+        <td>Stata</td>
+        <td>medium</td>
+    </tr>
+    <tr>
+        <td>SQL</td>
+        <td>Advance</td>
+    </tr>
+    <tr>
+        <td>SQL</td>
+        <td>Native</td>
+    </tr>
+    <tr>
+        <td>English</td>
+        <td>medium</td>
+    </tr>
+    </table>
+    
+    <input type="text" id="inputText">
+    <button onclick="addText()">Input Text</button>
+    <div id="Texto"></div>
+    
+    <script>
+    function addText() {
+        var NewText = document.getElementById("inputText").value;
+        var TexinHTML = document.createElement("p");
+        TexinHTML.textContent = NewText;
+        document.getElementById("Texto").appendChild(TexinHTML);
+    }
+    </script>
+    
+
+
+</body>
+</html>
+

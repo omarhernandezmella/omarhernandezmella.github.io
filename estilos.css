@@ -1,0 +1,23 @@
+.titulo-clase {
+    color: red;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabla-clase {
+    color: rgb(5, 5, 5);
+    text-align: center;
+    background-color:darkgray;
+    border-collapse: separate;
+    border-spacing: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.tabla-clase th,
+.tabla-clase td {
+    padding: 8px; 
+    border: 1px solid #dddddd;
+}
+
+.tabla-clase th {
+    background-color: #f2f2f2;
+}
