@@ -1,5 +1,5 @@
 .titulo-clase {
-    color: red;
+    color: rgb(10, 10, 10);
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -9,12 +9,12 @@
     text-align: center;
     background-color:darkgray;
     border-collapse: separate;
-    border-spacing: 10px; 
+    border-spacing: 1px; 
     font-family: 'Times New Roman', Times, serif;
 }
 .tabla-clase th,
 .tabla-clase td {
-    padding: 8px; 
+    padding: 1px; 
     border: 1px solid #dddddd;
 }
 
